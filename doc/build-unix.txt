@@ -12,9 +12,8 @@ UNIX BUILD NOTES
 
 To Build
 --------
-::
 
- cd src && make -f makefile.unix
+cd src && make -f makefile.unix
 
 See readme-qt.rst for instructions on building TNJ QT,
 the graphical tnj.
