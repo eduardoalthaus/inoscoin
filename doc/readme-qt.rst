@@ -19,8 +19,7 @@ distribution are installed, for Debian and Ubuntu these are:
 then execute the following:
 
 
-qmake  
-make
+qmake && make
 
 Alternatively, install Qt Creator and open the `tnj-qt.pro` file.
 
