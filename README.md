@@ -1,16 +1,6 @@
 
 **Install on GNU/Linux - Ubuntu**
 
-<code>sudo apt update && sudo apt upgrade && sudo apt install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev
+<code>sudo apt update && sudo apt upgrade && sudo apt install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev -y
 
-mkdir source_code
-
-cd source_code
-
-wget https://github.com/tnjtnj/tnj/archive/rebranding.tar.gz
-
-tar -xzvf rebranding.tar.gz
-
-cd src
-
-make -f makefile.unix RELEASE=1</code>
+mkdir Inoscoin && cd Inoscoin && wget https://github.com/tnjtnj/tnj/archive/rebranding.tar.gz && tar -xzvf rebranding.tar.gz && cd src && make -f makefile.unix RELEASE=1</code>
