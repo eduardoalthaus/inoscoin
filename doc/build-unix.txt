@@ -12,9 +12,9 @@ UNIX BUILD NOTES
 
 To Build
 --------
+::
 
-cd src/
-make -f makefile.unix            # Headless tnj
+ cd src && make -f makefile.unix
 
 See readme-qt.rst for instructions on building TNJ QT,
 the graphical tnj.
